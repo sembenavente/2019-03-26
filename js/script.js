@@ -1,6 +1,6 @@
 alert("hola");
 
-
+/*
 for (let index = 0; index < 1; index++) {
 
     var cantHoras = prompt("Ingresar las horas laborales");
@@ -13,6 +13,16 @@ for (let index = 0; index < 1; index++) {
         alert("Error: ingreso una cantidad de horas no valido");
         index = -1
     }
+    
+}*/
+
+function calcular(){
+    var dato = document.getElementById("caja").nodeValue;
+    alert("dato");
+}
+
+function mensaje(){
+    alert("soy p");
     
 }
 
